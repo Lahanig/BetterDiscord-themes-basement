@@ -2,9 +2,8 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.0.4
+ * @version 0.0.5
  */
-
 
 :root {
     --control-brand-foreground-new: #76AAD9;
@@ -31,6 +30,10 @@
 
 .scroller_c43953::-webkit-scrollbar {
     width: 8px!important;
+}
+
+.list_a478e5 {
+    padding-left: 24px;
 }
 
 /* .scroller_c43953::-webkit-scrollbar-track {
