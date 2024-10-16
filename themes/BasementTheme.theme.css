@@ -381,7 +381,7 @@
 }
 
 .theme-dark .container_eedf95 {
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
 }
 
 .theme-dark .elevationBorderHigh_ff8688 {
@@ -691,7 +691,7 @@
 .searchResultsWrap_c2b47d,
 .messagesPopoutWrap_ac90a2,
 .container_f1c3d9 {
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
 }
 
 .searchResult_ddc613,
@@ -1002,7 +1002,7 @@
 
 
 .container_e664f3 {
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
     border-radius: 4px;
     background-attachment: fixed;
 }
@@ -1192,7 +1192,7 @@
 .contentWrapper_af5dbb,
 .emojiPicker_c6ee36,
 .contentWrapper_eab878 {
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
     box-shadow: none;
 }
 
@@ -1464,7 +1464,7 @@
 }
 
 .theme-dark .autocomplete_bcc24e {
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
 }
 
 .disabled_e18e73 {
@@ -2241,7 +2241,7 @@
 .profileBannerPreview-3mLIdO {
     border-radius: 4px;
     box-shadow: none;
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
 }
 
 .avatarUploaderInner_ab876d {
@@ -2897,7 +2897,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .connection_e2a436 {
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
 }
 
 .noIcon_f11207 {
@@ -2978,7 +2978,7 @@ button.button_adca65.enabled_adca65:hover {
 
 .quickswitcher_f4e139 {
     box-shadow: none;
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
     color: white;
 }
 
@@ -3402,7 +3402,7 @@ a {
 
 .root_f9a4c9.modal_cedfaf {
     background-attachment: fixed;
-    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+    /*background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
     border-radius: 4px;
 }
 
