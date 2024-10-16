@@ -5,6 +5,13 @@
  * @version 0.0.2
  */
 
+
+:root {
+    --control-brand-foreground-new: #76AAD9;
+    --brand-500: #76AAD9;
+    --status-positive: var(--brand-500)
+}
+
 *::selection {
     background-color: #00aaffcc;
 }
@@ -1364,6 +1371,9 @@
     color: white;
 }
 
+.container_b55df8 {
+    background: transparent;
+}
 
 .theme-dark .checkbox_f6cde8 {
     border-color: white;
@@ -1372,7 +1382,7 @@
 .theme-dark .checkbox_f6cde8[style*="border-color; background-color"],
 .theme-dark .checkbox_f6cde8[style*="border-color"] {
     background-color: #76AAD9 !important;
-    border: 2px outset #76AAD9 !important;
+    border: 2px solid #76AAD9 !important;
 }
 
 .theme-dark .checkbox_f6cde8[style*="border-color; background-color"] path,
@@ -1869,11 +1879,6 @@
 
 .mention_edf32f:active {
     background-color: #76AAD9;
-}
-
-:root {
-    --control-brand-foreground-new: #76AAD9;
-    --brand-500: #76AAD9;
 }
 
 .mini_c7a159 .grabber_c7a159 {
