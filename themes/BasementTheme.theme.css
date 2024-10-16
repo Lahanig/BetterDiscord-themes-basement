@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.0.2
+ * @version 0.0.4
  */
 
 
@@ -1563,7 +1563,7 @@
 
 .markup_f8f345 code {
     background: rgba(97, 164, 216, .44);
-    border: 4px ridge #61A5D8;
+    border: 1px solid #61A5D8;
 }
 
 .hljs {
