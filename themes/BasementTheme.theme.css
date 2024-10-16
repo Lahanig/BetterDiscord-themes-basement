@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1
+ * @version 0.0.2
  */
 
 *::selection {
@@ -551,6 +551,7 @@
     background-color: rgba(0, 0, 0, .6);  
     box-shadow: none;
 }
+  
 
 .option_f6639d[aria-selected=true]:not(.option_f6639d.multi_f6639d) {
     color: white !important;
@@ -801,6 +802,7 @@
 .colorDefault_d90b3d {
     color: white;
     border-color: transparent;
+    border: 1px solid transparent;
 }
 
 .colorDefault_d90b3d .checkbox_d90b3d,
@@ -1173,7 +1175,7 @@
 }
 
 .fakeLink_cdb578 {
-    color: gold;
+    color: var(--brand-500);
 }
 
 .sprite_af14ca {
@@ -1385,18 +1387,18 @@
 .button_a24e84 {
     border-radius: 5px;
     background-color: #61A5D8;
-    border: 3px groove #61A5D8;
+    border: 3px solid #61A5D8;
 }
 
 .button_a24e84:hover,
 .keyboard-mode .button_a24e84.focused_a24e84 {
     background-color: #76AAD9;
-    border: 3px outset #76AAD9;
+    border: 3px solid #76AAD9;
 }
 
 .button_a24e84:active {
     background-color: #61A5D8;
-    border: 3px inset #61A5D8;
+    border: 3px solid #61A5D8;
 }
 
 .closeButton_b11c5e {
