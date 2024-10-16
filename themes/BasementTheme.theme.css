@@ -551,7 +551,7 @@
     background-color: rgba(0, 0, 0, .6);  
     box-shadow: none;
 }
-  
+
 .option_f6639d[aria-selected=true]:not(.option_f6639d.multi_f6639d) {
     color: white !important;
     background-color: black !important;
