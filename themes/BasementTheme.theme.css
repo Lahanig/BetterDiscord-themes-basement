@@ -2,14 +2,15 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.0.8
+ * @version 0.0.9
  */
 
 :root {
     --control-brand-foreground-new: #76AAD9;
     --brand-500: #76AAD9;
     --green-360: #76AAD9;
-    --status-positive: var(--brand-500)
+    --status-positive: var(--brand-500);
+    --bg-url: url(https://psv4.userapi.com/s/v1/d/_5pZoKV8xfsAkN_YSvClq5f7T0KSfO984tjhczOIg9Dmkdfs5Q5sb6jWD-I7oVBW7zHA6UF-zrjLDEjIdye8RnDHTMk218lnmfzOXvGdUEyW5-RABn0WnA/2009952.webp);
 }
 
 *::selection {
@@ -21,7 +22,7 @@
 }
 
 .app_a01fb1 {
-    background-image: url(https://psv4.userapi.com/s/v1/d/_5pZoKV8xfsAkN_YSvClq5f7T0KSfO984tjhczOIg9Dmkdfs5Q5sb6jWD-I7oVBW7zHA6UF-zrjLDEjIdye8RnDHTMk218lnmfzOXvGdUEyW5-RABn0WnA/2009952.webp);
+    background-image: var(--bg-url);
 
     background-position: center;
     background-repeat: no-repeat;
