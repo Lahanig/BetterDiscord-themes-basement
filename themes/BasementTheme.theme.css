@@ -6,10 +6,19 @@
  */
 
 :root {
-    --control-brand-foreground-new: #76AAD9;
-    --brand-500: #76AAD9;
-    --green-360: #76AAD9;
-    --status-positive: var(--brand-500);
+    --primary-bg-color: #76AAD9;
+    --primary-bg-color-2: #94CEE6;
+
+    --second-bg-color: #0d6efd;
+
+    --primary-btn-bg-color: #00aaff;
+    --primary-btn-bg-color-2: #00aaffc4;
+
+    --control-brand-foreground-new: var(--primary-bg-color);
+    --brand-500: var(--primary-bg-color);
+    --green-360: var(--primary-bg-color);
+    --status-positive: var(--primary-bg-color);
+
     --bg-url: url(https://psv4.userapi.com/s/v1/d/_5pZoKV8xfsAkN_YSvClq5f7T0KSfO984tjhczOIg9Dmkdfs5Q5sb6jWD-I7oVBW7zHA6UF-zrjLDEjIdye8RnDHTMk218lnmfzOXvGdUEyW5-RABn0WnA/2009952.webp);
 }
 
@@ -66,7 +75,7 @@
 .scroller_c43953::-webkit-scrollbar-thumb {
     width: 8px!important;
     border-radius: 8px!important;
-    background: #0d6efd;
+    background: var(--second-bg-color);
 }
 
 /* .content_c49869::-webkit-scrollbar {
@@ -125,7 +134,7 @@
 } */
 
 .speaking_ba4b17 {
-    box-shadow: inset 0 0 0 2px #94CEE6, inset 0 0 0 3px var(--background-secondary)!important;
+    box-shadow: inset 0 0 0 2px var(--primary-bg-color-2), inset 0 0 0 3px var(--background-secondary)!important;
 }
 
 .page_d20375 /* (Members List *NEW*) */ {
@@ -133,7 +142,7 @@
   }
 
   .avatarSpeaking_d80634 {
-    box-shadow: inset 0 0 0 2px #94CEE6, inset 0 0 0 3px var(--background-secondary)!important;
+    box-shadow: inset 0 0 0 2px var(--primary-bg-color-2), inset 0 0 0 3px var(--background-secondary)!important;
   }
 
   .theme-dark .panel_bf1a22 {
@@ -141,19 +150,19 @@
   }
 
   .default_e07331 {
-    color: #94CEE6;
+    color: var(--primary-bg-color-2);
   }
 
   .hovered_e07331 {
-    color: #94CEE6;
+    color: var(--primary-bg-color-2);
   }
 
   .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
-    background-color: #00aaff;
+    background-color: var(--primary-btn-bg-color);
   }
 
   .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
-    background-color: #00aaffc4;
+    background-color: var(--primary-btn-bg-color-2);
   }
   
   .mainTableContainer_e23072  /* (Members List Background *NEW*) */ {
@@ -332,7 +341,7 @@
   #app-mount .activity_cd74cc {
     background: rgba(205, 205, 205, .3);
     border-radius: 3px;
-    border: 2px outset rgba(205, 205, 205, .5);
+    border: 2px solid rgba(205, 205, 205, .5);
   }
   
   .permissionChiplet_a507b4 .text-xs\/medium_dc00ef,
@@ -359,7 +368,7 @@
 .avatarWrapper_b2ca13:hover {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 4px;
-    border: 0px solid #00aeff;
+    border: 0px solid #00aaff;
     color: white;
 }
 
