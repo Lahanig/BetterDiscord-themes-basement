@@ -38,7 +38,7 @@ jobs:
         with:
           # Upload entire repository
           path: './themes/'
-          file: 'BasementTheme.theme.css'
+          name: 'BasementTheme.theme.css'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
