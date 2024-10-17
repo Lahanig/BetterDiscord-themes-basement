@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           # Upload entire repository
-          name: 'BasementTheme.css'
+          name: 'github-pages'
           path: './themes/BasementTheme.css'
       - name: Deploy to GitHub Pages
         id: deployment
