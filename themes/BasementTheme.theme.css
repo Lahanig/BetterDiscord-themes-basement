@@ -2,12 +2,13 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.0.5
+ * @version 0.0.7
  */
 
 :root {
     --control-brand-foreground-new: #76AAD9;
     --brand-500: #76AAD9;
+    --green-360: #76AAD9;
     --status-positive: var(--brand-500)
 }
 
@@ -22,6 +23,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
+}
+
+.shop_e77fa3 {
+    background: transparent;
+}
+
+.shopScroll_e77fa3 {
+    background: transparent;
+}
+
+.header_bf550a {
+    text-align: center;
+}
+
+.list_a478e5 {
+    padding-left: 24px;
 }
 
 .scrollerInner_e2e187 {
