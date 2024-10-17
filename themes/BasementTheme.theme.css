@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.0.7
+ * @version 0.0.8
  */
 
 :root {
@@ -14,6 +14,10 @@
 
 *::selection {
     background-color: #00aaffcc;
+}
+
+.container_f1fd9c {
+    background: transparent;
 }
 
 .app_a01fb1 {
