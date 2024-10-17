@@ -2,17 +2,22 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.0.9
+ * @version 0.1.0
  */
 
 :root {
     --primary-bg-color: #76AAD9;
     --primary-bg-color-2: #94CEE6;
+    --primary-bg-color-3: #61a5d8;
+    --primary-bg-color-4: #61a4d8c9;
+    --primary-bg-color-5: #00DFF1;
+    --primary-bg-color-6: #76abd9b3;
 
     --second-bg-color: #0d6efd;
 
     --primary-btn-bg-color: #00aaff;
     --primary-btn-bg-color-2: #00aaffc4;
+    --primary-btn-bg-color-3: #61A5D8;
 
     --control-brand-foreground-new: var(--primary-bg-color);
     --brand-500: var(--primary-bg-color);
@@ -354,7 +359,7 @@
 }
 
 .countContainer_a6d69a {
-    background-color: #61a5d8;
+    background-color: var(--primary-bg-color-3);
 }
 
 .preview_bdfce3 {
@@ -368,7 +373,7 @@
 .avatarWrapper_b2ca13:hover {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 4px;
-    border: 0px solid #00aaff;
+    border: 0px solid var(--primary-btn-bg-color);
     color: white;
 }
 
@@ -381,7 +386,7 @@
 }
 
 .reactionTooltipText-iAWHhX a {
-    color: #00DFF1;
+    color: var(--primary-bg-color-5);
     font-weight: bold;
     background-color: black;
     padding: 2px;
@@ -414,9 +419,9 @@
     background-color: rgba(0, 0, 0, .25);
 }
 
-.theme-dark .container_eedf95 {
-    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
-}
+/* .theme-dark .container_eedf95 {
+    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+} */
 
 .theme-dark .elevationBorderHigh_ff8688 {
     box-shadow: none;
@@ -434,7 +439,6 @@
 }
 
 .option_b0286e {
-
     font-size: 13px;
     border-radius: 6px;
 }
@@ -461,8 +465,8 @@
 }
 
 .theme-dark .option_b0286e[aria-selected=true] {
-    background-color: rgba(97, 164, 216, .79);
-    border: 2px outset rgba(255, 255, 255, .33);
+    background-color: var(--primary-bg-color-4);
+    border: 2px solid rgba(255, 255, 255, .33);
 }
 
 .theme-dark .option_b0286e:hover {
@@ -512,7 +516,7 @@
 }
 
 .theme-dark .voiceSectionIconWrapper_cd82a7 {
-    background-color: #61a5d8;
+    background-color: var(--primary-bg-color-3);
 }
 
 .voiceSectionIconWrapper_cd82a7 {
@@ -521,20 +525,20 @@
 
 .theme-dark .searchAnswer_b0fa94,
 .theme-dark .searchFilter_b0fa94 {
-    background-color: #61a5d8;
+    background-color: var(--primary-bg-color-3);
 }
 
 .theme-dark .queryContainer_eedf95 {
     color: white;
-    border-bottom-color: #61a5d8;
+    border-bottom-color: var(--primary-bg-color-3);
 }
 
 .theme-dark .focused_eedf95 {
-    background-color: rgba(118, 171, 217, .70);
+    background-color: var(--primary-bg-color-6);
 }
 
 .theme-dark .dim_c90023 .key_c90023 {
-    background-color: #61a5d8;
+    background-color: var(--primary-bg-color-3);
     color: white;
 }
 
@@ -544,8 +548,8 @@
 }
 
 .combo_c90023 .key_c90023 {
-    background-color: #61a5d8;
-    border: 1px solid #76AAD9;
+    background-color: var(--primary-bg-color-3);
+    border: 1px solid var(--primary-bg-color);
     border-radius: 6px;
 }
 
@@ -560,7 +564,7 @@
 .theme-dark .combo_c90023 .key_c90023:active {
     color: white;
     box-shadow: none;
-    border: 2px outset #76AAD9;
+    border: 2px solid var(--primary-bg-color);
 }
 
 .theme-dark .dim_c90023 .key_c90023:active {
@@ -592,7 +596,6 @@
     background-color: rgba(0, 0, 0, .6);  
     box-shadow: none;
 }
-  
 
 .option_f6639d[aria-selected=true]:not(.option_f6639d.multi_f6639d) {
     color: white !important;
@@ -640,11 +643,11 @@
 .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--keyboard-selected,
 .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:hover,
 .calendarPicker_be05cd .react-datepicker__day:hover {
-    background-color: #FFB21F;
+    background-color: var(--primary-bg-color-2);
 }
 
 .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:after {
-    background-color: #FFB21F;
+    background-color: var(--primary-bg-color-2);
 }
 
 .theme-dark .datePicker_b0286e .datePickerHint_b0286e {
@@ -656,18 +659,18 @@
 }
 
 .theme-dark .datePicker_b0286e .datePickerHint_b0286e .hintValue_b0286e {
-    background-color: #61a5d8;
+    background-color: var(--primary-bg-color-3);
     border: 1px solid rgba(255, 255, 255, .54);
 }
 
 .theme-dark .datePicker_b0286e .datePickerHint_b0286e .hintValue_b0286e:hover {
-    border: 2px outset #76AAD9;
-    background-color: #76AAD9;
+    border: 2px solid var(--primary-bg-color);
+    background-color: var(--primary-bg-color);
 }
 
 .theme-dark .datePicker_b0286e .datePickerHint_b0286e .hintValue_b0286e:active {
-    border: 2px inset #61a5d8;
-    background-color: #61a5d8;
+    border: 2px solid var(--primary-bg-color-3);
+    background-color: var(--primary-bg-color-3);
 }
 
 .searchBar_a46bef {
@@ -699,7 +702,7 @@
     width: 10px;
     height: 10px;
     border-radius: 4px;
-    background-color: #61A5D8;
+    background-color: var(--primary-btn-bg-color-3);
 }
 
 .icon_fc4f04 {
@@ -710,7 +713,6 @@
     mask: none;
 }
 
-
 .searchHeader_b7c924,
 .header_ac90a2 {
     background-color: transparent;
@@ -720,7 +722,6 @@
     background-color: rgba(0, 0, 0, .25);
     padding: 0 14px;
 }
-
 
 .searchResultsWrap_c2b47d,
 .messagesPopoutWrap_ac90a2,
