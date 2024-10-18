@@ -5,3 +5,13 @@
  * @version 0.0.1
  * @source https://github.com/Lahanig/BetterDiscord-themes-basement/blob/0bd0333ff789bbb534474d32907b220df2d2de6a/themes/FatumTheme.theme.css
  */
+
+@import url(https://lahanig.github.io/BetterDiscord-themes-basement/themes/BasementTheme.theme.css);
+
+:root {
+    --primary-bg-color: #76AAD9;
+}
+
+*::selection {
+    background-color: #00aaffcc;
+}
