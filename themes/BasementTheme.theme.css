@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.6
+ * @version 0.1.7
  */
 
 :root {
@@ -35,7 +35,7 @@
     --status-positive: var(--primary-bg-color);
 
     --bg-url: url(https://psv4.userapi.com/s/v1/d/_5pZoKV8xfsAkN_YSvClq5f7T0KSfO984tjhczOIg9Dmkdfs5Q5sb6jWD-I7oVBW7zHA6UF-zrjLDEjIdye8RnDHTMk218lnmfzOXvGdUEyW5-RABn0WnA/2009952.webp);
-    --banner-bg-url: url(https://sun9-37.userapi.com/impg/5oRqqZOnwDS1sBtvn_Y_DI4qID-Zno-lcENKkg/7ZKrdPIeO18.jpg?size=1600x1131&quality=96&sign=5561aad5a08da3042bb88f656e8e4eb3&type=album);
+    --banner-bg-url: url(https://sun9-33.userapi.com/impg/mqgVYL9306Mv7k-wgDBskVkscusKA14WN_RdfA/a5doW7YoEYw.jpg?size=1920x1080&quality=96&sign=216b42941544499b2d957644a3603dcb&type=album);
 }
 
 *::selection {
