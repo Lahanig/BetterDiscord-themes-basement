@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.4
+ * @version 0.1.5
  */
 
 :root {
@@ -25,6 +25,9 @@
     --primary-btn-bg-color-3: #61A5D8;
     --primary-btn-bg-color-4: #61a4d8b8;
     --primary-btn-bg-color-4-alt: #61A5D8cc;
+
+    --home-background: transparent;
+    --background-secondary: rgba(0, 0, 0, .3)
 
     --control-brand-foreground-new: var(--primary-bg-color);
     --brand-500: var(--primary-bg-color);
@@ -54,6 +57,14 @@
 
 .shop_e77fa3 {
     background: transparent;
+}
+
+.textContainer_d8e2d0 {
+    border: none;
+}
+
+.footer_d8e2d0  {
+    border: none;
 }
 
 .shopScroll_e77fa3 {
@@ -1606,7 +1617,7 @@
 
 .hljs {
     color: white;
-    text-shadow: rgba(0, 0, 0, 0.89) 0px 3px 1px, #000000 3px 1px 10px, #000000 3px 1px 10px;
+    /* text-shadow: rgba(0, 0, 0, 0.89) 0px 3px 1px, #000000 3px 1px 10px, #000000 3px 1px 10px; */
 }
 
 .bd-toast {
@@ -4789,9 +4800,9 @@ a {
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.hljs {
+/* .hljs {
     background: rgba(255, 255, 255, .12);
-}
+} */
 
 .chatContent_a7d72e {
     background: none;
