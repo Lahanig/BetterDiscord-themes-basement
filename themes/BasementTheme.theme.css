@@ -27,7 +27,7 @@
     --primary-btn-bg-color-4-alt: #61a5d8cc;
 
     --home-background: transparent;
-    --background-secondary: rgba(0, 0, 0, .3);
+    --background-secondary: #0000004d;
 
     --control-brand-foreground-new: var(--primary-bg-color);
     --brand-500: var(--primary-bg-color);
