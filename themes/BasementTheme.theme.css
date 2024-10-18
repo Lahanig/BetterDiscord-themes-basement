@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.5.1
+ * @version 0.1.5.2
  */
 
 :root {
@@ -27,7 +27,7 @@
     --primary-btn-bg-color-4-alt: #61a5d8cc;
 
     --home-background: transparent;
-    /* --background-secondary: #0000004d; */
+    --background-secondary: #0000004d;
 
     --control-brand-foreground-new: var(--primary-bg-color);
     --brand-500: var(--primary-bg-color);
