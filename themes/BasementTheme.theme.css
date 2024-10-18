@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.7.1
+ * @version 0.1.7.2
  * @source https://github.com/Lahanig/BetterDiscord-themes-basement/blob/0bd0333ff789bbb534474d32907b220df2d2de6a/themes/BasementTheme.theme.css
  */
 
@@ -28,7 +28,8 @@
     --primary-btn-bg-color-4-alt: #61a5d8cc;
 
     --home-background: transparent;
-    --background-secondary: #0000004d;
+    --bg-secondary: rgba(0, 0, 0, 0.302);
+    --background-secondary: var(--bg-secondary);
 
     --control-brand-foreground-new: var(--primary-bg-color);
     --brand-500: var(--primary-bg-color);
@@ -1245,7 +1246,7 @@
 .emojiPicker_c6ee36,
 .contentWrapper_eab878 {
     /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
-    background: var(--background-secondary);
+    background: var(--bg-secondary);
     box-shadow: none;
 }
 
