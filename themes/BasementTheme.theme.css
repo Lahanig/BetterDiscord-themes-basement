@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.7.3
+ * @version 0.1.7.4
  * @source https://github.com/Lahanig/BetterDiscord-themes-basement/blob/0bd0333ff789bbb534474d32907b220df2d2de6a/themes/BasementTheme.theme.css
  */
 
@@ -963,7 +963,7 @@
 
 .wrapper_da9f92 {
     border-radius: 5px;
-    background-color: var(--primary-bg-color-3);
+    /* background-color: var(--primary-bg-color-3); */
     box-shadow: none;
     text-shadow: none;
 }
