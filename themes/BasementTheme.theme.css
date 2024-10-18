@@ -147,7 +147,7 @@
 } */
 
 .speaking_ba4b17 {
-    box-shadow: inset 0 0 0 2px var(--primary-bg-color-2), inset 0 0 0 3px var(--background-secondary)!important;
+    box-shadow: solid 0 0 0 2px var(--primary-bg-color-2), solid 0 0 0 3px var(--background-secondary)!important;
 }
 
 .page_d20375 /* (Members List *NEW*) */ {
@@ -155,7 +155,7 @@
   }
 
   .avatarSpeaking_d80634 {
-    box-shadow: inset 0 0 0 2px var(--primary-bg-color-2), inset 0 0 0 3px var(--background-secondary)!important;
+    box-shadow: solid 0 0 0 2px var(--primary-bg-color-2), solid 0 0 0 3px var(--background-secondary)!important;
   }
 
   .theme-dark .panel_bf1a22 {
@@ -315,7 +315,7 @@
   #app-mount .button_edead5 {
     background: rgba(205, 205, 205, .2);
     color:white;
-    border: 2px outset rgba(205, 205, 205, .3);
+    border: 2px solid rgba(205, 205, 205, .3);
   }
   
   .section_ba4d80 .defaultColor_e9e35f {
@@ -1244,7 +1244,7 @@
 .navButtonActive_af5dbb,
 .navButtonActive_b003de {
     background-color: var(--primary-bg-color);
-    border: 2px inset var(--primary-bg-color);
+    border: 2px solid var(--primary-bg-color);
 }
 
 .header_c6ee36 {
@@ -1516,7 +1516,7 @@
 .theme-dark .clickable_bcc24e[aria-disabled=false]>.base_bcc24e:hover,
 .clickable_bcc24e[aria-selected=true]>.base_bcc24e {
     background-color: var(--primary-bg-color);
-    border: 3px outset var(--primary-bg-color);
+    border: 3px solid var(--primary-bg-color);
 }
 
 .theme-dark .option_bea3ee {
@@ -1578,12 +1578,12 @@
 
 .lookFilled_dd4f85.colorRed_dd4f85:hover {
     background-color: #B02121;
-    border: 2px outset #B02121;
+    border: 2px solid #B02121;
 }
 
 .lookFilled_dd4f85.colorRed_dd4f85:active {
     background-color: #B02121;
-    border: 2px inset #B02121;
+    border: 2px solid #B02121;
 }
 
 .upload_df1eaf {
@@ -1598,7 +1598,6 @@
 .description_c2668b {
     color: white;
 }
-
 
 .markup_f8f345 code {
     background: #61a4d870;
@@ -1838,7 +1837,7 @@
 }
 
 .lookFilled_dd4f85.colorGreen_dd4f85:disabled {
-    background-color: #00AD89;
+    background-color: var(--primary-bg-color-3);
 }
 
 .body_b9fccc,
@@ -2007,12 +2006,12 @@
 
 .button_ccfa44:hover {
     background-color: var(--primary-bg-color);
-    border: 3px outset var(--primary-bg-color);
+    border: 3px solid var(--primary-bg-color);
 }
 
 .button_ccfa44:active {
     background-color: var(--primary-bg-color-3);
-    border: 3px inset var(--primary-bg-color-3);
+    border: 3px solid var(--primary-bg-color-3);
 }
 
 .role_d70de6 {
@@ -2266,7 +2265,7 @@
 }
 
 .lookOutlined_dd4f85.colorGreen_dd4f85 {
-    background-color: #00AD89;
+    background-color: var(--primary-bg-color-3);
     border-color: transparent;
     color: white;
 }
@@ -2379,7 +2378,7 @@
 }
 
 .avatarSpeaking_cdc675 {
-    box-shadow: inset 0 0 0 3px var(--primary-bg-color-3), inset 0 0 0 3px black;
+    box-shadow: solid 0 0 0 3px var(--primary-bg-color-3), solid 0 0 0 3px black;
     border-radius: 4px;
 }
 
@@ -2397,7 +2396,7 @@
     /* border-radius: 2px; */
     border: 0px solid var(--primary-bg-color-3)!important;
     position: absolute;
-    box-shadow: inset 0 0 0 2px var(--primary-bg-color-3), inset 0 0 0 2px black;
+    box-shadow: solid 0 0 0 2px var(--primary-bg-color-3), solid 0 0 0 2px black;
 }
 
 /* .linkTop_d8bfb3 {
@@ -2505,7 +2504,7 @@
 
 .unread_c10249 {
     background-color: rgba(0, 0, 0, 0.35);
-    border: 2px outset #1a1a1a;
+    border: 2px solid #1a1a1a;
     border-radius: 3px;
 }
 
@@ -2689,7 +2688,7 @@ button.button_adca65.enabled_adca65:hover {
 
 .theme-dark .notDetected_fd966d {
     background-color: #242527;
-    border: 2px outset #37393b;
+    border: 2px solid #37393b;
 }
 
 .theme-dark .addGamePopout_fd966d {
@@ -2705,7 +2704,7 @@ button.button_adca65.enabled_adca65:hover {
 .theme-dark .nowPlaying_fd966d,
 .theme-light .nowPlaying_fd966d {
     background-color: #38A84B;
-    border: 2px outset #135c1f;
+    border: 2px solid #135c1f;
 }
 
 .bd-search-wrapper {
@@ -2917,12 +2916,12 @@ button.button_adca65.enabled_adca65:hover {
 
 .accountButtonInner_e2a436:hover {
     background-color: #76AAD9;
-    border: 2px outset #76AAD9;
+    border: 2px solid #76AAD9;
 }
 
 .accountButtonInner_e2a436:active {
     background-color: rgba(97, 164, 216, .63);
-    border: 2px inset var(--primary-bg-color-3);
+    border: 2px solid var(--primary-bg-color-3);
 }
 
 .integrationWrapper_e2a436 {
@@ -2933,9 +2932,9 @@ button.button_adca65.enabled_adca65:hover {
     background: transparent;
 }
 
-.connection_e2a436 {
-    /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
-}
+/* .connection_e2a436 {
+    background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
+} */
 
 .noIcon_f11207 {
     background-color: var(--primary-bg-color-3);
@@ -3156,11 +3155,10 @@ button.button_adca65.enabled_adca65:hover {
     background-color: transparent;
 }
 
-
 .actionButton_e01b91.actionDeny_e01b91:hover {
     color: white !important;
     background-color: #d41010 !important;
-    border: 2px outset #d41010 !important;
+    border: 2px solid #d41010 !important;
 }
 
 .applicationStore_cecc86,
@@ -3303,16 +3301,16 @@ a {
 
 .reaction_f61c73:hover {
     background-color: rgba(0, 0, 0, .55);
-    border: 3px outset #242424;
+    border: 3px solid #242424;
 }
 
 .reaction_f61c73.reactionMe_f61c73 {
     background: rgba(97, 164, 216, .48);
-    border: 3px inset var(--primary-bg-color-3);
+    border: 3px solid var(--primary-bg-color-3);
 }
 
 .newMessageCount_d331f1[style*="color:"] {
-    color: gold !important;
+    color: var(--primary-bg-color-3) !important;
 }
 
 /* Megathread Stuff */
@@ -4167,7 +4165,7 @@ a {
 }
 
 .tile_d7ec26:hover .sourceThumbnail_d7ec26 {
-    box-shadow: inset 0 0 0 2px var(--primary-bg-color-3);
+    box-shadow: solid 0 0 0 2px var(--primary-bg-color-3);
 }
 
 .container_adcaac {
@@ -4859,12 +4857,12 @@ a {
 }
 
 .card_a298b8 a {
-    color: lightgreen;
+    color: var(--primary-bg-color-2);
     font-weight: 600;
 }
 
 .defaultColor_a595eb a {
-    color: lightgreen;
+    color: var(--primary-bg-color-2);
     font-weight: 600;
 }
 
