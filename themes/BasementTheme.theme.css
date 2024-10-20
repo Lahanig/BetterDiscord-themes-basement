@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.7.8
+ * @version 0.1.7.9
  * @source https://github.com/Lahanig/BetterDiscord-themes-basement/blob/0bd0333ff789bbb534474d32907b220df2d2de6a/themes/BasementTheme.theme.css
  */
 
@@ -2417,7 +2417,7 @@
 .pointerEvents_c51b4e {
     background: var(--primary-bg-color-3)!important;
     color: var(--primary-bg-color-3)!important;
-    fill: var(--primary-bg-color-3)!important;
+    /* fill: var(--primary-bg-color-3)!important; */
 }
 
 .avatarSpeaking_c51b4e {
@@ -3660,7 +3660,7 @@ a {
 #app-mount .avatarWrapper_f89da9 .wrapper_c51b4e foreignObject[mask*=mobile]~.pointerEvents_c51b4e,
 #app-mount .avatar_ec3b75.wrapper_c51b4e foreignObject[mask*=mobile]~.pointerEvents_c51b4e {
     mask: url("#svg-mask-status-online-mobile");
-    fill: #3BA53B !important;
+    fill: var(--primary-bg-color-3)!important;
 }
 
 .avatarWrapper_f89da9 circle,
