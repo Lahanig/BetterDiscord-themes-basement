@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.7.9
+ * @version 0.1.7.10
  * @source https://github.com/Lahanig/BetterDiscord-themes-basement/blob/0bd0333ff789bbb534474d32907b220df2d2de6a/themes/BasementTheme.theme.css
  */
 
@@ -63,6 +63,10 @@
 
 .textContainer_d8e2d0 {
     border: none;
+}
+
+.themedBackground_bdf0de {
+    background: transparent;
 }
 
 .carouselModal_c9eb31.modal_aee8c6.root_f9a4c9.fullscreenOnMobile_f9a4c9 {
