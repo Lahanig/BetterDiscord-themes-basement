@@ -1406,7 +1406,7 @@
 .theme-dark .root_f9a4c9 {
     /* background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%); */
     background-color: color-mix(in oklab, var(--primary-600) 85%, var(--theme-base-color, rgba(0, 0, 0, 0.932)) var(--theme-base-color-amount, 0%));
-    border: 1px solid var(--primary-bg-color-6-alt);
+    border: 0px solid var(--primary-bg-color-6-alt);
     box-shadow: none;
 }
 
