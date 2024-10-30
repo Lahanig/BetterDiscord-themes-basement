@@ -2,7 +2,7 @@
  * @name Basement Theme
  * @author Kaibi
  * @description Base template for custom theme
- * @version 0.1.7.11
+ * @version 0.1.7.12
  * @source https://github.com/Lahanig/BetterDiscord-themes-basement/blob/0bd0333ff789bbb534474d32907b220df2d2de6a/themes/BasementTheme.theme.css
  */
 
@@ -2692,7 +2692,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .border_db83a2 {
-    border-radius: 50%;
+    border-radius: 50%!important;
 }
 
 .border_db83a2.speaking_db83a2 {
