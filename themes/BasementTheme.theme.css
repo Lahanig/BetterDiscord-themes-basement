@@ -1113,7 +1113,7 @@
 .wrapper_c51b4e,
 .avatar_c51b4e {
     border-radius: 5px !important;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .avatar_acb8b3 foreignObject,
